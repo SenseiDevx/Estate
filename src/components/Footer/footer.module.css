@@ -1,0 +1,251 @@
+.container {
+  width: 100%;
+  background-color: #292C32;
+}
+.container .allBlock {
+  padding-top: 100px;
+  padding-bottom: 75px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .container .allBlock {
+    padding: 20px;
+  }
+}
+.container .allBlock .logo {
+  padding-bottom: 75px;
+}
+.container .allBlock .mainList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .container .allBlock .mainList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
+.container .allBlock .mainList .list {
+  text-align: start;
+}
+@media (max-width: 600px) {
+  .container .allBlock .mainList .list {
+    margin-bottom: 20px;
+  }
+}
+.container .allBlock .mainList .list h5 {
+  color: #FF8A63;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+}
+@media (max-width: 600px) {
+  .container .allBlock .mainList .list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+.container .allBlock .mainList .list ul li {
+  color: #FFF;
+  padding-bottom: 9px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .allBlock .mainList .contacts {
+  width: 450px;
+  text-align: start;
+}
+@media (max-width: 600px) {
+  .container .allBlock .mainList .contacts {
+    width: 300px;
+  }
+}
+.container .allBlock .mainList .contacts h5 {
+  color: #FF8A63;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+}
+.container .allBlock .mainList .contacts p {
+  color: #FFF;
+  padding-bottom: 9px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+@media (max-width: 600px) {
+  .container .allBlock .mainList .contacts p {
+    width: 300px;
+  }
+}
+.container .allBlock .mainList .contacts .input {
+  max-width: 450px;
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .container .allBlock .mainList .contacts .input {
+    width: 300px;
+  }
+}
+.container .allBlock .mainList .contacts .input input {
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+  height: 50px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #E5E7EB;
+  background: #F9FAFB;
+}
+@media (max-width: 600px) {
+  .container .allBlock .mainList .contacts .input input {
+    width: 300px;
+  }
+}
+.container .allBlock .mainList .contacts .input input::-webkit-input-placeholder {
+  color: #6F7278;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .allBlock .mainList .contacts .input input::-moz-placeholder {
+  color: #6F7278;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .allBlock .mainList .contacts .input input:-ms-input-placeholder {
+  color: #6F7278;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .allBlock .mainList .contacts .input input::-ms-input-placeholder {
+  color: #6F7278;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .allBlock .mainList .contacts .input input::placeholder {
+  color: #6F7278;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.container .allBlock .mainList .contacts .input button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  z-index: 100;
+  width: 73px;
+  height: 39px;
+  background-color: #3A4443;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.container .allBlock .mainList .contacts .input button:hover {
+  background-color: #FF8A63;
+  cursor: pointer;
+}
+.container .allBlock .bottomBlocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 27px;
+}
+.container .allBlock .bottomBlocks .text {
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+@media (max-width: 600px) {
+  .container .allBlock .bottomBlocks .text {
+    text-align: start;
+    padding-bottom: 25px;
+  }
+}
+.container .allBlock .bottomBlocks .logos {
+  width: 156px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container .allBlock .bottomBlocks .logos a {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.container .allBlock .bottomBlocks .logos a:hover {
+  -webkit-transform: scale(1.4) rotate(-360deg);
+          transform: scale(1.4) rotate(-360deg);
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
+}

@@ -1,0 +1,6 @@
+.bgImage {
+  background-image: url("../../assets/assobnyak.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

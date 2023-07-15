@@ -1,0 +1,134 @@
+.allBlock {
+  text-align: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 100px auto;
+}
+.allBlock .texts p {
+  color: #FF8A63;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.allBlock .texts h1 {
+  color: #45525B;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43.2px;
+}
+@media (max-width: 500px) {
+  .allBlock .texts h1 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 29px;
+  }
+}
+.allBlock .texts span {
+  width: 100%;
+  max-width: 560px;
+  display: block;
+  color: #6F7278;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+  padding-top: 15px;
+}
+@media (max-width: 500px) {
+  .allBlock .texts span {
+    width: 375px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+.allBlock .blocks {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+@media (max-width: 830px) {
+  .allBlock .blocks .blockForImg {
+    display: none;
+  }
+}
+.allBlock .blocks .locationTexts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.allBlock .blocks .locationTexts .icon {
+  width: 300px;
+  height: 167px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: start;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin: 20px;
+  outline: none;
+}
+@media (max-width: 800px) {
+  .allBlock .blocks .locationTexts .icon {
+    border-radius: 10px;
+    border: 1px solid rgba(202, 204, 209, 0.2);
+    background: #FAFAFC;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.allBlock .blocks .locationTexts .icon:hover {
+  border-radius: 10px;
+  border: 1px solid rgba(202, 204, 209, 0.2);
+  background: #FAFAFC;
+  cursor: pointer;
+  outline: none;
+}
+.allBlock .blocks .locationTexts .icon h4 {
+  color: #45525B;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.allBlock .blocks .locationTexts .icon p {
+  color: #6F7278;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+}

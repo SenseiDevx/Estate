@@ -1,0 +1,181 @@
+.allBlock {
+  margin-top: 90px;
+}
+.allBlock .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: start;
+}
+.allBlock .texts p {
+  color: #FF8A63;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media (max-width: 1000px) {
+  .allBlock .texts p {
+    text-align: center;
+    padding: 20px;
+  }
+}
+.allBlock .texts h2 {
+  color: #45525B;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: start;
+  line-height: 43.2px;
+}
+@media (max-width: 600px) {
+  .allBlock .texts h2 {
+    text-align: center;
+    font-size: 28px;
+    padding-right: 20px;
+  }
+}
+.allBlock .texts span {
+  color: #6F7278;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+  width: 100%;
+  max-width: 570px;
+  padding-top: 10px;
+}
+@media (max-width: 1000px) {
+  .allBlock .texts span {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+.allBlock .iconsBlock {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+.allBlock .iconsBlock .blockImages {
+  height: 385px;
+  border-radius: 8px;
+  background: #FFF;
+  -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.03);
+          box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.03);
+}
+@media (max-width: 600px) {
+  .allBlock .iconsBlock .blockImages {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #999999;
+    height: 350px;
+  }
+}
+@media (max-width: 600px) {
+  .allBlock .iconsBlock .blockImages .img {
+    text-align: center;
+    width: 320px;
+    border-radius: 10px 10px 0 0;
+  }
+}
+.allBlock .iconsBlock .blockImages .bottomBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.allBlock .iconsBlock .blockImages .bottomBlock .p {
+  padding-top: 20px;
+  color: #6F7278;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.allBlock .iconsBlock .blockImages .bottomBlock h4 {
+  color: #45525B;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 10px;
+}
+.allBlock .iconsBlock .blockImages .bottomBlock .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.allBlock .iconsBlock .blockImages .bottomBlock .icons .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.allBlock .iconsBlock .blockImages .bottomBlock .icons .icon p {
+  color: #45525B;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+.allBlock .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  margin: 30px auto;
+}
+.allBlock .link a {
+  color: #45525B;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
